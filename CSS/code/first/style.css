@@ -1,0 +1,15 @@
+button{
+  /* all buttons will become apply */
+    height: 50px;
+    width: 200px;
+    background-color: green;
+}
+.abc{
+    background-color: red;
+} 
+#x{
+    background-color: aqua;
+}
+/* #xyz{
+    background-color: blue;
+} */

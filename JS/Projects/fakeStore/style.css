@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 3px black;
+}

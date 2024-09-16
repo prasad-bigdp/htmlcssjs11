@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <!-- login,signup,registartion,search bar,feedback,contact. forms are used to collect user's information/data  -->
+     <form action="main.java" method="get">
+        <label for="un">Enter name:</label>    
+        <input type="text" name="un" id="inp1"
+        placeholder="Name in letter" value="batman" readonly><br><br>
+        <label for="email">Enter email:*</label>
+            <input type="email" name="em" id="email" required><br><br>
+            <input type="password" name="pwd" 
+            pattern="^b+[A-Za-z]{5}+./[0-9]{2,}"><br><br>//ABCde.090
+          age:  <input type="number" name="age" id="" min="20"><br><br>
+            <input type="color" name="" id=""><br><br>
+            <input type="date" name="" id=""><br><br>
+            <input type="datetime-local" name="" id="">
+            <input type="file" name="" id="">
+            <input type="month" name="" id="">
+            <input type="range" name="" id=""><br><br>
+            <input type="hidden" name="gender" value="male">
+            <input type="search" name="" id="">
+            <input type="tel" name="" id="">
+            <input type="time" name="" id="">
+            <input type="url" name="" id="">
+            <input type="week" name="" id=""><br><br><br> 
+
+            <input type="radio" name="gender" value="abc" id="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="bbc" id="female">
+            <label for="female">Female</label><br><br>
+            <input type="checkbox" name="lang" id="tamil">
+            <label for="tamil">Tamil</label>
+             <input type="checkbox" name="lang" id="telugu">
+            <label for="telugu">Telugu</label>
+             <input type="checkbox" name="lang" id="eng">
+            <label for="eng">English</label>
+             <input type="checkbox" name="lang" id="hindi">
+            <label for="hindi">Hindi</label> <br><br>
+
+            <select name="car" id="car" multiple size="2">
+                <option value="">Please select any one value</option>
+                <option value="a">BMW</option>
+                <option value="b">Nexa</option>
+                <option value="c">Audi</option>
+                <option value="d">Tesla</option>
+            </select>
+            
+            <select name="subjects" id="subject">
+                <optgroup label="CSE">
+                    <option value="dbms">DBMS</option>
+                    <option value="dsa">DSA</option>
+                    <option value="os">OS</option>
+                    <option value="CSA">CSA</option>
+
+                </optgroup>
+                <optgroup label="ECE/EEE">
+                    <option value="ACM">ACM</option>
+                    <option value="VLSI">VLSI</option>
+                     <option value="BEE">BEE</option>
+                     <option value="DSP">DSP</option>
+                </optgroup>
+                
+                
+
+            </select>
+            <textarea name="" id="" rows="20" cols="10" style="resize: none;"></textarea>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+            <button>submit</button>
+     </form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+Colors represents visual connection to the user
+
+colors can be assigned by name, hexcode, rgb(red,green,blue) -0 to 255,rgba(red,green,blue,alpha -0.0 to 1.0), hsl(hue - angle, saturation,lightness),hsla(hue,saturation,lightness.alpha)
+gradient -mixing of colors
+linear-gradient(color1,color2), linear-gradient(to right, color1,color2)
+radial-gradient(color1,color2)- shows transformation from color1 to color2 starting from center of circle
+
+Fonts: Fonts represents you brand and it helps you to connect your audience well
+there are 5 types of Fonts
+1. serif: every letter in serif font  has some stroke at the end. eg: serif
+2. sans-serif: sans means no. sans serif font will not have any stroke at the ends Eg: Arial
+3. monospace: every letter  will have same height. eg: roboto
+4. cursive: every letter have a style / shape
+5. fantasy: any modern font other than above 4 is fantasy
+
+we can assigns fonts to css using google fonts
+
+How to include google font into css?
+google fonts --> slect a font --> get font -->get embed code ---> import copy import and paste at the top of css
+also add font-family to respectively element
+we can adjust fonts  by font-size,font-style,font-weight
+
+we can adjust text by properties
+text-align(center,left,right,justify), text-shadow(xpx ypx color), text-decoration: xpx solid colorname;
+we can assign text-decoration-style (solid,dotted,double,wavy,dashed) buy you also should mention text-decoration-line(underline/overline)
+text-transform(captalise,uppercase,lowercase)
+
+
+units:
+units defines a measurement in web page
+px-  pixel is the smallest unite of your screen resolution
+em- enumerated value. it is x times of parent font size
+rem- rootenumerated values, always x times of 16px
+%- we can give percentages of parent
+vh- viewport height
+vw- viewport width
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

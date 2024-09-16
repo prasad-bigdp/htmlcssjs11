@@ -1,0 +1,4 @@
+Display is used to make elements appear in various forms
+Display can be block / inline. inline elements cannot have height/width. you can use inline-block. to make an element disappear use Display none. you can even create table using Display
+
+FlexBox: flex is used to arrange elements in row/column(any one direction) within the container

@@ -1,0 +1,11 @@
+install  node js
+create an emptyfolder
+create a file db.json and inside add 
+{
+  "books":[]
+}
+goto terminal and specific folder -->
+ npm install -g json-server
+json-server db.json --watch
+
+if any error press ctrl+c and write again json-server db.json --watch

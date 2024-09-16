@@ -1,0 +1,24 @@
+what is js and how to include it?
+what is difference between var,let,const?
+number and number methods
+string and string methods
+what is template literal?
+what is hoisting?what is execution content?what is call stack?
+what is difference between null and undefined?
+what is difference primitve and non-primitive?
+what is a function? difference between normal and arrow function?
+what is callback function?
+what is closure? how it can use in real time ?
+what is IIFE? what is anonymous function?
+difference between rest vs spread operators
+what is array? how to declare?
+difference between map,filter,reduce,forEach?
+what are objects? how to delare and access?
+explain if and switch
+difference between for,for..in,for..of,forEach
+how to select html element in js using Document object?
+Explain different doccument object manipulations.
+how to create and append a dom element?
+what are event listners? what is difference between listners and handlers?
+explain different types of events
+what is event propagation? difference between bubbling and capturing

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+}
+#banner{
+    display: flex;
+    gap:50px;
+    padding: 100px;
+}
+#banner div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#banner h1{
+    font-size: 48px;
+}
+#banner p{
+    font-size: 24px;
+}
+#banner button{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius:20px;
+}
+@media (max-width:776px){
+    body{
+        background-color: red;
+    }
+    #banner{
+        flex-direction: column-reverse;
+    }
+}

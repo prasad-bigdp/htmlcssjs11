@@ -1,0 +1,4 @@
+semantic elements are for SEO and readability purposes. it won't create any difference in the UI.
+popular semantic elements are header,main,footer,section,article,aside,nav etc..,
+
+Classes and ID: classes and Id's are used to identify the elements but two elements might have same classname or one element might have two class names. Ids are always unique and only one for an element

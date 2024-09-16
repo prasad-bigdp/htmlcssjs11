@@ -1,0 +1,36 @@
+Bootstrap is a component CSS Library.
+what is library?
+library is a predefined code used for a specific purpose.
+popular css libraries 
+animate css
+foundation css
+bootstrap
+tailwind
+magic css
+
+To understand Bootstrap Well, We should understand 4 concepts
+  -- colors: Bootstrap uses 8 basic colours
+    primary: blue
+    secondary : grey
+    success: green
+    danger: red
+    warning: orangeyellow
+    info: skyblue
+    dark/black: black
+    light/white:white
+    you can even use subtle
+  -- layout: Bootstrap by default follows grid structure of 12 columns
+  According to bootstrap 5, left is start and right is end
+  .row is row and each column can col or col-length
+  -- breaking points:
+  Breakpoint	   Class infix	   Dimensions
+Extra small      	None	        <576px
+Small	             sm	             ≥576px
+Medium	             md	            ≥768px
+Large	             lg          	≥992px
+Extra large	         xl         	≥1200px
+Extra extra large	xxl          	≥1400px
+ 
+  -- components:
+  components are basic building blocks which are ready made in bootstrap
+  we need to include js for that

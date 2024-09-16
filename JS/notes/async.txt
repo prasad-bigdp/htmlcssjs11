@@ -1,0 +1,22 @@
+Asynchronous means which takes time
+JS is basically synchronous so it ignores asynchronous and when callstack got emptied , async will run
+Timers
+ -- setTimeOut(callback,time in milli seconds)
+ -- setInterval(callback,time in milli seconds) -- it runs
+ for every interval of time
+ -- To stop timeOut,you can use clearTimeOut();
+ -- to stop interval,you can use clearInterval()
+
+API ( Application Programming Interface ):
+API will have an end point which consists data. The API is created by Backend and used at frontend. it is the bridge that connects frontend with Backend
+
+To access API's, we used to use
+  -- XHR(xmlhttpRequests) but now browsers by default have
+a method 
+  --fetch to manage API
+Every asynchronous function except timers will return promise
+A Promise is an object which describes an eventual completion of asynchronous operation
+
+
+
+

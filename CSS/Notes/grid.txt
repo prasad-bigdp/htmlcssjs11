@@ -1,0 +1,26 @@
+Grid is used to display items in two dimensional way like rows and columns
+Grid container contains items(child elements) and most of the properties belongs to container
+container Properties:
+  display:grid ----> it explains the container is a grid
+  grid-template-columns---> how many columns we want witheach column space will be included. you can express the size by 'px','%','em','fr'
+  grd-template-column:1fr 2fr; // 2 columns with 1/3 and 2/3 fractions will come
+  repeat() is a function used to repeat certain size
+  grid-template-columns:50px repeat(4,10px);
+
+  grid-template-rows: we can even define rows similar to columns using grid-template-columns.
+
+  gap: gap is the space between items,you can also use row-gap and column-gap
+
+justify-content: it moves items through row
+align-items: it moves items through column
+grid-template: grid-template-rows/grid-template-columns
+
+childern Properties:
+grid-column-start: starting-column-line-number
+grid-column-end: ending-column-line-number
+grid-row-start: starting-row-line-number
+grid-row-end: ending-row-line-number
+grid-column: grid-column-start/grid-column-end;
+grid-row: grid-row-start/grid-row-end;
+grid-area: row-start/column-start/row-end/column-end
+each item contains an order and default order is zero

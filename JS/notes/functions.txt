@@ -1,0 +1,152 @@
+Function: a function is a block of code  for a specific purpose
+used for reusability
+we divide the whole logic into smaller parts . so that we can repeat them and easy to debug
+
+//Basic function - simple function
+function function-name(parameters){
+    //statements
+}
+every function needs to called
+function-name() // function call
+
+
+Eg: function display(){
+    console.log("hello world)
+}
+display()
+
+
+--  function can take parameters
+function function-name(param1,param2)
+{
+    //statements
+}
+function-name(value1,value2)
+
+// you can also pass any number of parameters, 
+  -- incase if you pass more parameters than expected, it will ignore them
+  -- incase if you pass less paramters than expected , it will take undefined, you can also assign default value
+ function sum(a,b)
+ {
+    console.log(a+b)
+ }
+
+ sum(1,5,8);  --->output:6
+
+ function sum(a,b=5){
+    console.log(a+b)
+ }
+ sum(2)  //NAN (Not a number because a is 2 and b is undefined)
+
+-- To take multiple values at a time, we use rest operator. rest operator is denoted by three dots(...)
+-- to give multiple value or to unpack an array of multiple values , we use spread operator, it is also denoted by three dots(...)
+function restSpread(a,...b)
+{
+    console.log(a,b);
+    let newArr= [...b,"activa"]
+    console.log(newArr)
+}
+restSpread("pulsur","RX100","Royal enfield","yamaha","tvs")
+
+-- functions can return the values
+function add(a,b)
+{
+    return a+b;
+}
+let x=add(5,6)
+console.log(x)
+
+
+// functions can be expresses as a variable. it's called function expression
+var fun= function(){
+    console.log("hello world")
+}
+console.log(fun) //fun
+// function can be also explained as
+ arrow functions. arrow function returns the default retune value if only one statement is there
+
+const fun= ()=>   console.log("hello world")
+
+// inner functions can remeber outer function values even after outer function execution ended -- closure
+
+function outer ()
+{
+    let c = 0;
+    function inner ()
+    {
+        c++;
+        console.log(c)
+    }
+    return inner;
+}
+let z = outer();
+console.log(z) // complete inner function
+z()
+z()
+
+
+//callback functions - one function inside the parameter of another function is called callback function.
+// Function which takes another function as a parameter is called Higher order function
+
+function x(){
+    console.log("good")
+}
+function y(a,b){
+    b();
+    console.log(a)
+}
+y("boy",x)
+
+
+//
+// a function can be called without name --> anonymous function
+// a function can call itself only once --> IIFE - Immediate invoke function expression
+(function ()
+{
+    console.log("hiiiiiiiiiiiiiiiiiii") //encapsulation
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

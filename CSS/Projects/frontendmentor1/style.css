@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sankofa+Display&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+}
+#container{
+   height: 70vh;
+   width: 50vw;
+   background-color: black;
+   border-radius: 20px;
+   color: white;
+   display: flex;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;  
+}
+.item{
+     
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+button,p,h2{
+    color: hsl(0, 0%, 95%);
+}
+h2{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+p{
+    font-family:  "Lexend Deca", sans-serif;;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: hsl(0, 0%, 95%);;
+}
+button{
+    padding: 15px;
+    border-radius: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+.suv{
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

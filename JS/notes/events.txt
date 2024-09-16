@@ -1,0 +1,16 @@
+Events are used to trigger specific times/functions
+Events can be triggered in two ways:
+  -- event handlers -- we use it to trigger functions from html
+  -- event listners -- we use it to trigger functions from js
+  element.addEventListner('event',function,?capture)
+
+Event are 4 types
+1. window events -- onLoad,onClose,onDOMContentLoaded etc..,
+2. keyboard events -- keypress,keyup,keydown etc..,
+3. mouse events -- onclick,onmouseOver , onMouseOut etc..,
+4. formEvents -- inputs,forms like onchange,oninput,onselect,
+onsubmit
+
+event propagation: it deals how events propagate between elements.
+1. bubbling: The triggering of inner most element carries to outer value
+2. capturing: the triggering of outer most element  goes towrds innermost one.

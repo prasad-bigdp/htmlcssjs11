@@ -1,0 +1,31 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 48px;
+    color: white;
+    transition:all 1s ease;
+    animation-name: prasad;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes prasad{
+    50%{
+        background-color: green;
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+.box:hover{
+    background-color: green;
+    /* transform:translateX(400px); */
+    transform: rotate(45deg);
+}

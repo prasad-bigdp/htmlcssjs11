@@ -1,0 +1,13 @@
+In Web Pages, everything is treated as box
+A Box typically contains
+border: borde is the outmost line of a box. we can define border width, border style(solid,double,dashed,dotted etc..,) and border color
+
+To make corners radius, we use border-radius
+
+padding: padding is the space between contet and border inside the box, we can define padding to left,right,bottom,top. and all at a time also
+
+margin: margin is the space outside the border of box.
+
+If 100px height box is given padding of 20px, then its height will increase 140px considering top 20px and bottom 20px and original height 100px, so, padding may alter height and width. this is default content-box
+
+To avoid it, we use box-sizing:border-box

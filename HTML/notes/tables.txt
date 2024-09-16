@@ -1,0 +1,10 @@
+Tables are used to represent data in simple way using rows and columns
+horizontal line of data is called row
+Vertical line of data is called column
+
+table in Html comprises <table> tag
+tr --->table row
+th or td ---> table head or table data
+caption ---> heading / caption of the table
+rowspan -- > combine rows
+colspan --> combine columns

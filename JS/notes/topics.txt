@@ -1,0 +1,42 @@
+BASICS:
+----------
+  Introduction
+  variables,comments,
+  JS engines,execution content,call stack
+  data types(primitive
+    - number(math methods)
+    - strings (string methods)
+    - Boolean
+    - undefined
+    - null)
+non primitive
+    - functions(fn parameters,return, rest,spread,
+    callback,closure,higher order, fn expression,arrow,IIFE,anonymous)
+    - Arrays(array methods)
+    - objects
+Operators
+IF,If-else,If-else-If
+switch
+while
+dowhile
+for, for..of,for..in
+
+DOM
+===========
+   --- selection
+   --- manipulation
+   --- creation
+
+ASYNC
+===========
+Timers(setTimeOut,setInterval),
+events(event listners vs event handlers, mouse events,keyboard events, window events, form events, capturing,bubbling)
+API(fetch),
+Promises
+Async AWAIT
+API - CRUD
+Asynchronous js structure - event loop, message queue
+ES6(classes,modules,destructure),
+Libraries
+Prototype inheritance, object in detail(this operator)
+window object(BOM)

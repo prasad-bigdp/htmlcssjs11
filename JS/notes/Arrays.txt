@@ -1,0 +1,72 @@
+Arrays are used to store values
+let arr=[2,5,"raj"];
+Arrays are represented by square brackets and each value in the arrays stored with indexes.
+index starts from 0
+arr[0]=2,arr[1]=5,arr[2]="raj",
+arr[3]=undefined;
+-- Arrays have some default functions
+arr.length -- >3 (no.of of elements in the array)
+push -- is used to add the value at the end of array
+pop -- is used to remove last value of array
+unshift -- is used to add the value at the start of array
+shift -- is used to remove first element of array
+splice(starting index,dleteCount,elements to add)
+-- can be used to insert/delete any values in array
+concat -- is used to add arrays
+indexOf('value') -- find first occurrence index of that value. if you want last one, use lastIndexOf
+
+forEach : forEach will take a call back function and execute it for each and every element of array. it passes, first argument as value and second argument as index
+let arr=[1,2,3]
+let x= arr.forEach((a,b)=>{ return a*a})
+forEach cannot return the value
+map: map will take a call back function and execute it for each and every element of array. it passes, first argument as value and second argument as index but map will return value for element
+let arr=[1,2,3]
+let x= arr.map((a,b)=>{ return a*a})
+console.log(x) //[1,4,9]
+
+// filter : filter will take a callback fn which takes first argument as value and second as index and will return onlue elements whose condition is true
+let arr=[1,2,3]
+let x= arr.map((a,b)=> a%2==0) // [false,true,false]
+let x1= arr.filter((a,b)=> a%2==0) //[2]
+
+// reduce: reduce will take a callback function and starting value,
+it will incremenet callback value everty time , update the 
+previous iteration value
+let arr=[1,2,3]
+let x= arr.reduce((prev,curr)=>prev+curr,0)
+let x= arr.reduce(function(prev,curr)
+{
+    return prev+curr
+},0)
+
+// some: some will take a callback which returns  true or false and will be true if atleast one value returns true
+// every : every is is similar to some but all should be true
+// reverse: reverse is used to reverse the array
+// sort: sort is used to sort elements alphabetically,
+to sort ascending arr.sort((a,b)=>a-b)
+to sort descending arr.sort((a,b)=>b-a)
+
+Objects: Objects are used to store the data in key value pair. it can store data and method
+let obj={
+    name:"kfc",
+    age:68,
+    display:function(){
+        console.log("hiii")
+    }
+}
+console.log(obj.name,obj['name'],Object.keys(obj),Object.values(obj))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+randomJOKEAPI -- https://official-joke-api.appspot.com/random_joke
+
+https://v2.jokeapi.dev/joke/Any?type=single&amount=1
+randomQuote -- https://api.quotable.io/random
+randomUSER -- https://randomuser.me/api
+fakeStore -- https://fakestoreapi.com/products
+dummyJSON --https://dummyjson.com/products
+https://dummyjson.com/recipes
+sampleapis-- https://sampleapis.com/api-list
+moviesearch -- https://www.omdbapi.com/?s=%22RRR%22&apikey=3429085f
+nasa API -- 
+music API-- https://rapidapi.com/Glavier/api/spotify23/playground/apiendpoint_1dc51f1b-a2c6-4f9a-9c6c-32019c7301b2
+pokemon API--
+https://pokeapi.co/api/v2/pokemon/pikachu
+
+bikes: https://bikeindex.org/documentation/api_v3#!/bikes/GET_version_bikes_id_format_get_0
+
+website --  https://publicapis.dev/
+
+https://freeapi.app/
+

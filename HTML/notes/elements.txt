@@ -1,0 +1,21 @@
+Tags vs Elements:
+Tags are either open or close 
+eg: <h1>-- h1 open tag,</h1>-- close tag
+<h1>abcd</h1>  -----> h1 element
+element ===> open tag+content+close
+
+self-closing tags or empty elements or void elements will not have any closing tag
+<br> or <br/>
+<img src=" " alt=" " />
+
+block elements vs inline elements:
+Block elements doesn't allows the other elements beside them
+Inline elements allows the other elements beside them
+block elements also cover height/width and inline doesn't
+eg: popular block element is div
+popular inline element is span
+
+
+
+
+

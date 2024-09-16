@@ -1,0 +1,18 @@
+API stands for Application Programming Interface.
+This is used to connect different applications/services/data from other resources
+some API doesn't need authorization they are called public API's
+some API's need API-key for authorization and some API's need oAuth authorization
+API's do requests like get,post,put,delete,patch etc..,
+
+how to connect API in JS?
+In olden times, we used to use xmlHttpRequest(XHR) but modern browsers support fetch which can used for API request and returns a promise.
+  -- Promise is an object which describes an eventual completion of asynchronous operation. The promises may get resolved or rejected. if it resolves it will work then else it will work catch
+  
+fetch returns promise and when promise resolves it returns a response and that response converted into json resulting new promise and resolving it we get the data
+
+
+
+
+
+
+

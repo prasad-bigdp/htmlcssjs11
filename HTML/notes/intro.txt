@@ -1,0 +1,44 @@
+Web Devlopment: 
+Frontend of the website/web app/mobile apps deal with appearence  and user experience
+A website is a collection of web pages
+Frontend of a site can be done by HTML,CSS,JS
+HTML- structure of the pages
+CSS - Layout of the pages
+JS - Function of the page
+
+HTML started by Tim Berner's LEE(WWW founder) in 1989-1992.HTML stands for HyperText Markup Language. current version of HTML is HTML5.
+
+In HTML , everything is defined by tags. tags represent context and there are two types. open and close
+<tagname> -- open tag
+</tagname> -- closed tag
+
+whole html code will be between <html> and </html>
+html contains two child tags.., head and body
+
+In HTML,comments are written as <!--         comment         --->
+headings:
+headings are used to specify important terms.There six headings available in HTML. all are bold and differed by size.
+eg:h1,h2,h3,h4,h5,h6
+---->Per one page,one h1 is recommanded for SEO Purpose
+
+paragraphs: paragraphs are by default font-size:16px  and it represents normal paragraphs using p tag
+---> lorem,lorem20 are used to generate dummy text of 20 words
+
+Anchor tag: 'a' tag is used to link one web page to another / to navigate from one web page to another
+
+href take the value from user and respond the result to anchor tag
+
+target="_blank" is used open the link in new tab
+
+title="" represents title of tag/element as a popover
+
+
+
+
+
+
+
+
+
+
+

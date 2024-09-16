@@ -1,0 +1,71 @@
+.box2{
+    font-size: 24px;
+    color: black;
+}
+/* .box::first-letter{
+    color:red;
+    font-size: 48px;
+}
+.box::first-line{
+    color: blue;
+}
+.box::before{
+content:open-quote;
+font-size: 48px;
+}
+input{
+    height: 100px;
+    width: 200px;
+}
+    input::placeholder{
+        font-size: 34px;
+    } */
+    a:link{
+        color: red;
+    }
+    a:active{
+        color: green;
+    }
+    a:visited{
+        color: blue;
+    }
+    input:focus{
+        outline: 2px solid red;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    }
+    .box:hover{
+        background-color: blue;
+    }
+    /* input:optional{
+        background-color: red;
+    } */
+     /* input:read-only{
+        background-color: green;
+     }
+      input:read-write{
+        background-color: rgb(255, 0, 47);
+     } */
+      /* input:enabled{
+        background-color: green;
+      } */
+       .boxx{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+       }
+       /* div p:nth-child(4){
+        background-color: red;
+       } */
+        /* div p:nth-of-type(3)
+        {
+            background-color: red;
+        } */
+         /* div p:nth-last-child(3)
+         {
+            background-color: red;
+         } */
+          

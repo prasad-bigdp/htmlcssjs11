@@ -1,0 +1,18 @@
+internet fundamentals
+   -- what is internet? How it works?
+   -- terminology in internet
+   -- client-server modal
+Website Development Process
+   -- Requirements, Design,frontend,backend,databases,testing,deployement,maintainence
+UI/UX Design -- figma
+Hashnode,dev.to,medium
+Google Developer Tools,VSCode
+
+--- minimal.gallery
+--- https://www.darkmodedesign.com/
+--- https://www.awwwards.com/
+--- https://refero.design/
+--- https://stacksorted.com/
+
+
+

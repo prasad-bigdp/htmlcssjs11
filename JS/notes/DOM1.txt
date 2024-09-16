@@ -1,0 +1,37 @@
+Whole HTML,css is stored in one object called document
+we can select , manipulate or even create html elements in JS using document object
+
+=Selection=
+We can select an element of HTML using 5 ways
+i. document.getElementsByTagname('tagname') -- it returns an array of values of same tagname
+ii. document.getElementsByClassName('classname') -- it retunrs an array of values of same classname
+iii.document.getElementById('idname') -- it returns an element with specific array
+iv.document.querySelector('#btn') -- it select first element with specific tagname or classname or idname
+v.document.querySelectorAll('.para') -- it returns all elements with specific tagname or classname or idname
+
+#Manipulation#
+you can manipulate or change the value dynamicaaly using
+-- textContent - returns the text inside the element but it won't consider CSS
+-- innerText  - returns the text inside the element but it will consider CSS
+-- innerHTML - it takes HTML code and executes it 
+-- classList - classList is used to add/remove/toggle any classes to HTML element dynamically
+-- style - style is used to add styles to HTML elements using JS
+-- value - value is used to access the value of a element(input element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

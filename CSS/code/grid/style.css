@@ -1,0 +1,39 @@
+.box{
+   
+    background-color: red;
+    border: 1px solid white;
+    font-size: 48px;
+    color: white;
+}
+.main{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+   height:800px;
+   width:600px;
+   gap: 15px;
+}
+.box1{
+    grid-row:1/4;
+    background-color: green;
+}
+.box4{
+    grid-row:2/3;
+}
+.box5{
+    grid-row: 2/3;
+}
+.box2{
+    grid-column-start:2;
+    grid-column-end:4;
+        background-color: green;
+
+}
+.box4,.box8{
+    background-color: rgb(203, 203, 86);
+}
+.box6{
+    grid-row-start: 2;
+    grid-row-end: 4;
+        background-color: green;
+
+}

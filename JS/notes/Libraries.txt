@@ -1,0 +1,24 @@
+library is a pre written code used for a specific purpose
+Js also have an impresive set of libraries. each library is used for specic purpose
+
+ some libraries are:
+   1. JQuery
+       JQuery is a lightweight js library used for DOM manipulations
+   2. Typed Js
+      Typed js is used for typing effect
+   3.  React/Vue
+   4.d3 js -- charts/ data visualization for dashboards
+   5. games -- kaboom js,phaser
+   6. animations -- anime js,GSAP,three js
+   7. AOS - animate on scroll
+   8. underscore js - utility
+   9. chart js
+   10. bideo js
+   11. lodash
+   12. leaflet -- maps
+   13. multiple js -- background fixed
+   14. scrollmagic -- scrolling efferts
+   15. masnory js -- grid layout
+   16. https://momentjs.com --  used for date and times
+   17. cleave js- input formats
+   18.  so many and soo on

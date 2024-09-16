@@ -1,0 +1,22 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+   margin: 10px;  
+   font-size: 30px;color: white;
+}
+.box1{
+    float:left;
+}
+.box2{
+    float: left;
+}
+.box3{
+    float:left
+}
+.box4{
+    float:right
+}
+.para{
+   clear: both;
+}

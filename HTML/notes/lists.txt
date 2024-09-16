@@ -1,0 +1,6 @@
+eg: todo list, grocery list, contact list,marks list,country list,attandence list
+
+lists are actually divided as three types
+1. ordered list
+2. unordered list
+3. definition list

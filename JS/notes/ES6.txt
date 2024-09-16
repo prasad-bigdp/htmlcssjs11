@@ -1,0 +1,82 @@
+//Ecma script releases its versions for every update of JS
+//In 2015 - ecmascript releases its new version ES6. this version introduces OOPS to JS and also brought lot of features.
+features in ES6:
+i. Arrow Function: it is a modern representation of default normal function. it also make this operator points to window
+function sum(){
+    console.log("simple function")
+}
+const sum = ()=>console.log("simple function")
+'return' keyword is default in arrow functions if only one statement is there
+
+ii. template literals: template literals are used to give dynamic detailes to strings.
+eg:let pname= "shekhar" 
+console.log(`the name of person is ${pname}`)
+
+iii. rest vs spread operator:
+rest and spread both operators uses three dots '...'
+rest is used to bundle up remaining elements into an array
+spread is used to sepate value from given array or objects
+
+OOP(object oriented Programming):
+Anything which contains set of properties.it is an instance of class
+class is a collect of objects
+eg: banana -- taste,color,shape
+fruits is a class
+
+--- > cars is a class, maruthi,tata,lamborgini
+----> apple 12s,13,15,16
+
+let obj-name= new classname()
+class uses constructor to assign default values . 
+constructor can take parameters known as paraterized constructor
+
+classes can inherit from another using keyword extends
+child class constructor should call super() to pass
+values to parent class constructor
+
+Modules:
+---------
+imagine multiple files are there and you need one function which is already present in another file.
+There are different module systems like common js,require js etc..,
+but ES6 module  sytem introduced in 2015
+it contains words like import and export
+
+Destructure
+------------
+you can break the structure of an array or object using destructuring
+let obj={
+    title:"RRR",
+    status:"HIT,
+    year:2013
+    }
+    let {title}= obj   -->// const title= obj.title
+    console.log(obj.title,title)
+you can even destructure an array
+const arr=["KGF","VIKRAM"];
+const [x,y]= arr
+console.log(arr[0],x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+Forms are used to collect user's data
+Forms have two attributes , action and method
+action is the file/ path to which we submit details
+method ---> how data is transferred
+
+data is entered through input elements. 
+input element is a self closing inline element and it uses four attributes
+i. type -- it defines type of the input element
+ii. name - name is the variable which holds value
+iii. value -- it holds actual value
+iv. placeholder - dummy text placed until actual value enters
+v. id - id is used to uniquely identify the input type
+
+we can also use labels to label every input elements.
+labels uses for attribute which connects to id attribute in input element
+
+different types of inputs:
+text, email, password,date,time,datetime-local, url,file, image,hidden,color,week,month,range,search,tel,number
+
+Radio : Radio button/inputs are used when we need to select single choice
+we can use type radio with valid labels but names of similar radios should be same
+
+Checkbox : Checkboxes ares used when we need to select multiple choices
+we can use type checkbox with valid labels  but names of similar checkboxes should be same
+
+Select: select is used to create drop downs which can select single or multiple options
+  In select , we options for each option
+
+
+TextArea
+submit
+Reset
+
+form-validation:
+we can validate forms using form-validation
+readonly: we can't overwrite readonly input types
+disabled: we can make inputs disabled based on choice
+required : we can make some inputs required
+maxlength : to specify maximum no.of characters
+minlength: to specify minimum no.of characters
+max/min : to specify maximum / minimum value
+pattern: uses a regular expression to specify certail email/password patterns
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.book{
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 5px 5px black;
+   border-radius: 20px;
+   transition: all 1.5s ease;
+}
+.book:hover{
+    transform: scale(1.05);
+}

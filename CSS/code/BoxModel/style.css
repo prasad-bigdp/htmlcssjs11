@@ -1,0 +1,29 @@
+h1{
+    border:3px solid red;
+    border-bottom-left-radius: 10px;
+    width: max-content;
+    padding: 20px 50px;
+             /*tb lr*/
+  
+    margin:50px 20px;
+    
+}
+.myBox{
+    height:100px;
+    width:100px;
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+a{
+    font-size: 48px;
+    text-decoration: 2px wavy red;
+    text-decoration-line: underline;
+}
+li{
+    font-size: 30px;
+    list-style-type:none;
+}

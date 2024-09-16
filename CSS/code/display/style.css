@@ -1,0 +1,31 @@
+
+.box{
+    background-color: red;
+    height: 100px;
+    width:100px;
+    font-size: 24px;
+    color: white;
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+/* .box3{
+    display: none;
+} */
+ .bench{
+    width:300;
+    height: 400px;
+    border: 2px solid black;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: nowrap;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+ }
+ .box3{
+    flex-shrink: 2;
+    align-self: end;
+    order:2;
+    
+    
+ }

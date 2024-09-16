@@ -1,0 +1,21 @@
+HTML
+------
+intro,structure
+headings,p,a,img
+lists
+formatting tags
+elements(block vs inline)
+Tables
+semantic elements
+forms(different form types, validation)
+media
+micelleneous
+Projects
+----------
+www
+profile-page
+Time Tables
+Resume
+Licence Registration Form/School Registration Form
+
+
