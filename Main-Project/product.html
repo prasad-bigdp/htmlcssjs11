@@ -29,14 +29,22 @@
         </li> 
       </ul>
       <div id="cart" class=" d-flex gap-3 align-items-center">
-        <p class="text-white">cart:0</p>
+        <p class="text-white"><a href="./cart.html">cart: <span id="count"></span></a></p>
         <button class="btn btn-primary">login</button>
       </div>
     </div>
   </div>
 </nav>
  </header>
- <main></main>
+ <main>
+
+   <div id="product" class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6" id="leftDiv"></div>
+        <div class="col-12 col-lg-6" id="rightDiv"></div>
+      </div>
+   </div>
+ </main>
  <footer class=" container-fluid bg-black text-white text-center fs-5">
     this site belongs to XYZ &copy; 2024
  </footer>
@@ -44,5 +52,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./js/product.js"></script>
+    <script src="./js/common.js"></script>
 </body>
 </html>

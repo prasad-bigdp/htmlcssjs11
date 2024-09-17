@@ -1,6 +1,6 @@
 internet fundamentals
    -- what is internet? How it works?
-   -- terminology in internet
+   -- terminology i internet
    -- client-server modal
 Website Development Process
    -- Requirements, Design,frontend,backend,databases,testing,deployement,maintainence

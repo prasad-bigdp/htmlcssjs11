@@ -9,3 +9,22 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+#cartMain{
+
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 3px black;
+    margin: 20px 0px;
+}
+.item img{
+    height: 100px;
+    width: 100;
+}
